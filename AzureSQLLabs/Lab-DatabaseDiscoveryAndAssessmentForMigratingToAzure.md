@@ -379,4 +379,4 @@ With one PaaS offering ruled out due to feature parity, you will now perform a s
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/geopin.png?raw=true"><b >Next Steps</b></p>
 
-You can use this assessment to determine to move the database to Azure SQL Managed Instance. Now try to complete a lab on that topic, navigate to <a href="https://github.com/fratei/sqlworkshops/blob/btf2020labs/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md" target="_blank"><i> Lab - Migrating to Azure SQL Managed Instance</i></a>.
+You can use this assessment to determine to move the database to Azure SQL Managed Instance. Now try to complete a lab on that topic, navigate to <a href="https://github.com/fratei/sqlworkshops/blob/btf2020labs/SQLGroundToCloud/sqlgroundtocloud/05-MigratingToAzureSQL.md" target="_blank"><i> 05 - Migrate to Azure SQL</i></a>.
