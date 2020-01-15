@@ -356,14 +356,12 @@ With one PaaS offering ruled out due to feature parity, you will now perform a s
 
 11. Open the Azure portal, and navigate back to Azure Migrate. Select **Databases**. You should now see the results from the DMA scans. This will bring all of the databases and servers you scan and upload using DMA together, and provide a consolidated view.
 
-    ![Azure Migrate consolidated view](https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/graphics/azure-migrate-databases.png?raw=true "Azure Migrate")
+    ![Azure Migrate consolidated view](https://github.com/fratei/sqlworkshops/blob/btf2020labs/AzureSQLLabs/graphics/azure-migrate-databases.png?raw=true "Azure Migrate")
   
 
 12. You can click into **Assessed databases > TailspinToys** to see additional details and recommendations:  
-    ![Azure Migrate Tailspin Toys details](https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/graphics/azure-migrate-tailspin.png?raw=true "Azure Migrate")  
+    ![Azure Migrate Tailspin Toys details](https://github.com/fratei/sqlworkshops/blob/btf2020labs/AzureSQLLabs/graphics/azure-migrate-tailspin.png?raw=true "Azure Migrate")  
 
-> **Note**:  
-> If you are attending this lab as part of a day-long workshop, you have finished the activities for Module 4. [Return to it here](https://github.com/microsoft/sqlworkshops/blob/master/SQLGroundToCloud/sqlgroundtocloud/04-SQLServerOnTheMicrosoftAzurePlatform.md#activity-4-perform-assessment-for-migration-to-azure-sql-database-managed-instance), review, and refer to instructor guidance.  
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
@@ -381,4 +379,4 @@ With one PaaS offering ruled out due to feature parity, you will now perform a s
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/geopin.png?raw=true"><b >Next Steps</b></p>
 
-You can use this assessment to determine to move the database to Azure SQL Managed Instance. If you would like to complete a lab on that topic, navigate to <a href="https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md" target="_blank"><i> Lab - Migrating to Azure SQL Managed Instance</i></a>.
+You can use this assessment to determine to move the database to Azure SQL Managed Instance. Now try to complete a lab on that topic, navigate to <a href="https://github.com/fratei/sqlworkshops/blob/btf2020labs/AzureSQLLabs/Lab-MigratingToAzureSQLManagedInstance.md" target="_blank"><i> Lab - Migrating to Azure SQL Managed Instance</i></a>.
