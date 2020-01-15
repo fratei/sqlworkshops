@@ -1,16 +1,14 @@
 ![](https://github.com/fratei/sqlworkshops/blob/btf2020labs/graphics/microsoftlogo.png?raw=true)
 
-# Workshop: SQL Ground-to-Cloud
+# Workshop: SQL Server 2019 Big Data Clusters
 
-#### <i>A Microsoft workshop from the SQL Server team</i>
+#### <i>Building the Future 2020</i>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
 <img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/fratei/sqlworkshops/blob/btf2020labs/graphics/textbubble.png?raw=true"> <h2>03 - Working with Big Data and Data Science - Big Data Clusters for SQL Server 2019</h2>
 
-In this Module of the Workshop you'll cover using SQL Server on-premises and in-cloud configurations, as well as hybrid applications as a solution for data processing. In each section you'll get more references, which you should follow up on to learn more. Also watch for links within the text - click on each one to explore that topic. The end of this module contains several helpful references you can use in this course and in production.
-
-(<a href="https://github.com/fratei/sqlworkshops/blob/btf2020labs/SQLGroundToCloud/sqlgroundtocloud/00-prerequisites.md" target="_blank">Make sure you check out the <b>prerequisite</b> page before you start</a>. You'll need all of the items loaded there before you can proceed with the workshop.)
+In this Lab you'll cover using SQL Server on-premises and in-cloud configurations, as well as hybrid applications as a solution for data processing. In each section you'll get more references, which you should follow up on to learn more. Also watch for links within the text - click on each one to explore that topic. The end of this module contains several helpful references you can use in this course and in production.
 
 In this module you'll cover working with Data Science workloads with a focus on larger sets of data. Starting in SQL Server 2019, big data clusters allows for large-scale, near real-time processing of data over the HDFS file system and other data sources. It also leverages the Apache Spark framework which is integrated into one environment for management, monitoring, and security of your environment. This means that organizations can implement everything from queries to analysis to Machine Learning and Artificial Intelligence within SQL Server, over large-scale, heterogeneous data. SQL Server big data clusters can be implemented fully on-premises, in the cloud using a Kubernetes service such as Azure's AKS, and in a hybrid fashion. This allows for full, partial, and mixed security and control as desired.
 
