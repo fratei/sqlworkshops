@@ -1,23 +1,19 @@
 ![](https://github.com/microsoft/sqlworkshops/blob/master/graphics/microsoftlogo.png?raw=true)
 
-# Workshop: SQL Ground-to-Cloud
+# Workshop: Data Migration
 
-#### <i>A Microsoft workshop from the SQL Server team</i>
+#### <i>Building the Future 2020</i>
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
 <img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/textbubble.png?raw=true"> <h2> 04 - SQL Server on the Microsoft Azure Platform </h2>
 
-In the previous modules, you learned about SQL Server 2019, big data, and more. In this module, you'll learn more about Azure SQL, including the benefits, the options, and how to get there. Near the end of the module, you'll learn how to assess your on-premises estate, through an example with the  Tailspin Toys Gaming division of Wide World Importers, with tools like [Azure Migrate](https://docs.microsoft.com/en-us/azure/migrate/migrate-services-overview) and [Data Migration Assistant](https://docs.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-2017). The module is broken up into the following sections:  
+In this module, you'll learn more about Azure SQL, including the benefits, the options, and how to get there. Near the end of the module, you'll learn how to assess your on-premises estate, through an example with the  Tailspin Toys Gaming division of Wide World Importers, with tools like [Azure Migrate](https://docs.microsoft.com/en-us/azure/migrate/migrate-services-overview) and [Data Migration Assistant](https://docs.microsoft.com/en-us/sql/dma/dma-overview?view=sql-server-2017). The module is broken up into the following sections:  
 
 [4.1](#4.1): Introduction to Azure SQL   
 [4.2](#4.2): Azure SQL Platform Benefits   
 [4.3](#4.3): Migrating to Azure SQL    
 [4.4](#4.4): Database Discovery and Assessment   
-
-(<a href="https://github.com/microsoft/sqlworkshops/blob/master/SQLGroundToCloud/sqlgroundtocloud/00-prerequisites.md" target="_blank">Make sure you check out the <b>Prerequisites</b> page before you start</a>. You'll need all of the items loaded there before you can proceed with the workshop.)  
-
-SELF-PACED USERS ONLY: If you are using this module self-paced, carefully read through Module 4 of this workshop and the references provided before completing the lab in Module 4.4. You can also check out the [slides that will be presented in a live workshop](https://github.com/microsoft/sqlworkshops/blob/master/SQLGroundToCloud/slides/SQL%20Server%20on%20the%20Microsoft%20Azure%20Platform.pptx). Then, continue to Module 5.  
 
 > **Note**:  
 > While all the deployment options will be referenced, the focus of this module is on **Azure SQL Managed Instance**, with some details that are also related to **Azure SQL Database (single database)**.  
@@ -254,14 +250,11 @@ Once in SQL MI, several features of Azure SQL Database are examined. [Advanced D
 > If you are attending this lab as part of a day-long workshop, the activities below should be skipped (they will be demoed in class).  
 
 
-<h2><p>Activities</h2></p>
-
-> **Note:**  
-> If you are attending this lab as part of a day-long workshop, the activities below should be skipped (they will be demoed in class), but they are available should you want to review them again.    
+<h2><p>Activities</h2></p> 
 
 In these activities, you'll set up Azure Migrate, and explore some of the new integrations between Microsoft's Data Migration Assistant (DMA) and Azure Database Migration Services (DMS). Before you begin the assessments, you need to restore a copy of the `TailspinToys` database in your SQL Server 2008 R2 instance. Finally, you will use the Microsoft Data Migration Assistant (DMA) to perform an assessment of the `TailspinToys` database against Azure SQL Database (Single database and Managed Instance). The assessment will provide a report about any feature parity and compatibility issues between the on-premises database and the various services.   
 
-To complete the activities for this module, proceed directly to the Activities in [**Lab: Database Discovery and Assessment for Migrating to Azure**](https://github.com/microsoft/sqlworkshops/blob/master/AzureSQLLabs/Lab-DatabaseDiscoveryAndAssessmentForMigratingToAzure.md#Activity-1) for the hands-on exercises for Tailspin Toys Gaming. When are you done with these activities, come back here and continue to Module 5.  
+To complete the activities for this module, proceed directly to the Activities in [**Lab: Database Discovery and Assessment for Migrating to Azure**](https://github.com/fratei/sqlworkshops/blob/btf2020labs/AzureSQLLabs/Lab-DatabaseDiscoveryAndAssessmentForMigratingToAzure.md#Activity-1) for the hands-on exercises for Tailspin Toys Gaming. When are you done with these activities, come back here and continue to Module 5.  
 
   
 
@@ -270,7 +263,7 @@ To complete the activities for this module, proceed directly to the Activities i
 
 <p style="border-bottom: 1px solid lightgrey;"></p>
 
-<p><img style="margin: 0px 15px 15px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/owl.png?raw=true"><b>For Further Study</b></p>
+<p><img style="margin: 0px 15px 15px 0px;" src="https://github.comfratei/sqlworkshops/blob/btf2020labs/graphics/owl.png?raw=true"><b>For Further Study</b></p>
 <ul>
     <li><a href="https://datamigration.microsoft.com/
     " target="_blank">Azure Database Migration Guide</a> contains lots of resources that will help in guiding and supporting database migrations to Azure.</li>
@@ -284,6 +277,6 @@ To complete the activities for this module, proceed directly to the Activities i
     " target="_blank">In one location, ready to use or review slides</a> about Azure SQL are hosted online, including a few design sessions that could be redelivered. Feel free to use these resources with your customers or at events.</li>
 </ul>
 
-<p><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/microsoft/sqlworkshops/blob/master/graphics/geopin.png?raw=true"><b >Next Steps</b></p>
+<p><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/fratei/sqlworkshops/blob/btf2020labs/graphics/geopin.png?raw=true"><b >Next Steps</b></p>
 
-Next, Continue to <a href="https://github.com/microsoft/sqlworkshops/blob/master/SQLGroundToCloud/sqlgroundtocloud/05-MigratingToAzureSQL.md" target="_blank"><i> 05 - Migrating to Azure SQL</i></a>.
+Next, Continue to <a href="https://github.com/fratei/sqlworkshops/blob/btf2020labs/SQLGroundToCloud/sqlgroundtocloud/05-MigratingToAzureSQL.md" target="_blank"><i> 05 - Migrating to Azure SQL</i></a>.
