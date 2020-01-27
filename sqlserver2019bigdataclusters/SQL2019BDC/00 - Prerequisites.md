@@ -108,4 +108,4 @@ Install-WindowsUpdate
 
 <p><img style="float: left; margin: 0px 15px 15px 0px;" src="../graphics/geopin.png"><b >Next Steps</b></p>
 
-Next, Continue to <a href="01%20-%20The%20Big%20Data%20Landscape.md" target="_blank"><i> 01 - The Big Data Landscape</i></a>.
+<b>▶</b> You need a full Big Data Cluster for SQL Server up and running, and have identified the connection endpoints, with all security parameters. <a href="https://docs.microsoft.com/en-us/sql/big-data-cluster/deployment-guidance?view=sqlallproducts-allversions" target="_blank">You find out how to do that here</a>.
